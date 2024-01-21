@@ -42,11 +42,71 @@ img {
     max-width: 388px;
 }
 
-#article_1 h2 {
+#article_1_main h2 {
     text-align: center;
     position: relative;
     top: 100px;
     margin-top: -30px;
+}
+
+#article_2_athletes h2 {
+    text-align: center;
+    position: relative;
+    top: 250px;
+    margin-top: -70px;
+    color: #fff;
+}
+
+#article_3_performance h2 {
+    text-align: center;
+    position: relative;
+    top: 250px;
+    margin-top: -70px;
+}
+
+#article_4_lifestyle h2 {
+    text-align: center;
+    position: relative;
+    top: 580px;
+    margin-top: -50px;
+}
+
+#article_5_taste h2 {
+    text-align: center;
+    position: relative;
+    top: 250px;
+    margin-top: -50px;
+}
+
+#article_6_eco_friendly h2 {
+    text-align: center;
+    position: relative;
+    top: 270px;
+    margin-top: -70px;
+    color: #fff;
+}
+
+#article_7_trust h2 {
+    text-align: center;
+    position: relative;
+    top: 570px;
+    margin-top: -50px;
+}
+
+#article_8_future h2 {
+    text-align: center;
+    position: relative;
+    top: 250px;
+    margin-top: -50px;
+    color: #fff;
+}
+
+#article_9_summary h2 {
+    text-align: center;
+    position: relative;
+    top: 570px;
+    margin-top: -50px;
+    color: #fff;
 }
 
 /*test section
