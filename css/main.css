@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden {
+    display: none;
+}
+
+#container {
+    margin: 20px auto;
+    width: 428px;
+    border: solid 1px #333;
+    background: #efefef;
+    border-radius: 10px;
+}
+
+#mainContent {
+        display: grid;
+        grid-template-columns: repeat(4, 85px);
+        grid-column-gap: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+}
+
+article {
+    grid-column: 1/-1;
+}
+
+
+#article_1 {
+    font-family: 'Roboto', 'sans serif';
+}
+
+#article_2 {
+    font-family: 'Sanchez', 'sans serif';
+}
+
+#article_3 {
+    font-family: 'Ubuntu', 'sans serif';
+}
+
+img {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
+/*test section
+
+@font-face {
+    font-family: 'cabinbold';
+    src: url('../fonts/cabin-bold-webfont.eot');
+    src: url('../fonts/cabin-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cabin-bold-webfont.woff') format('woff'),
+         url('../fonts/cabin-bold-webfont.ttf') format('truetype'),
+         url('../fonts/cabin-bold-webfont.svg#cabinbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*/
