@@ -39,12 +39,14 @@ article {
 }
 
 img {
-    margin-top: 20px;
-    margin-bottom: 30px;
+    max-width: 388px;
 }
 
-h2 {
+#article_1 h2 {
     text-align: center;
+    position: relative;
+    top: 100px;
+    margin-top: -30px;
 }
 
 /*test section
