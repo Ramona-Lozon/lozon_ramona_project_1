@@ -8,8 +8,8 @@
 #container {
     margin: 20px auto;
     width: 428px;
-    border: solid 1px #333;
-    background: #efefef;
+    /* border: solid 1px #333;
+    background: #efefef; */
     border-radius: 10px;
 }
 
@@ -25,17 +25,23 @@ article {
     grid-column: 1/-1;
 }
 
-
-#article_1 {
-    font-family: 'Roboto', 'sans serif';
+.information {
+    font-family: 'Ubuntu', 'sans serif', 'times new roman';
+    color:#333;
+    line-height: 25px;
+    letter-spacing: -0.5px;
 }
 
-#article_2 {
-    font-family: 'Sanchez', 'sans serif';
+.logo {
+    letter-spacing: -3px;
 }
 
-#article_3 {
-    font-family: 'Ubuntu', 'sans serif';
+p {
+    font-family: 'Ubuntu', 'sans serif', 'times new roman';
+    color:#333;
+    line-height: 25px;
+    letter-spacing: -0.5px;
+    text-wrap:wrap;
 }
 
 img {
@@ -46,7 +52,11 @@ img {
     text-align: center;
     position: relative;
     top: 100px;
-    margin-top: -30px;
+    margin-top: -60px;
+    font-family: 'roboto', 'sans serif', 'times new roman';
+    font-weight: bolder;
+    letter-spacing: -5px;
+    font-size: 40px;
 }
 
 #article_2_athletes h2 {
@@ -55,6 +65,9 @@ img {
     top: 250px;
     margin-top: -70px;
     color: #fff;
+    font-family: 'roboto', 'sans serif', 'times new roman';
+    font-weight: bolder;
+    letter-spacing: 10px;
 }
 
 #article_3_performance h2 {
@@ -62,6 +75,10 @@ img {
     position: relative;
     top: 250px;
     margin-top: -70px;
+    color:orange;
+    font-family: 'roboto', 'sans serif', 'times new roman';
+    font-weight: bolder;
+    letter-spacing: 10px;
 }
 
 #article_4_lifestyle h2 {
