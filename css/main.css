@@ -25,13 +25,6 @@ article {
     grid-column: 1/-1;
 }
 
-.information {
-    font-family: 'Ubuntu', 'sans serif', 'times new roman';
-    color:#333;
-    line-height: 25px;
-    letter-spacing: -0.5px;
-}
-
 .logo {
     letter-spacing: -3px;
 }
@@ -41,95 +34,80 @@ p {
     color:#333;
     line-height: 25px;
     letter-spacing: -0.5px;
-    text-wrap:wrap;
 }
 
 img {
     max-width: 388px;
 }
 
-#article_1_main h2 {
+h2 {
+    background-color: rgba(255, 255, 255, 0.7);;
     text-align: center;
     position: relative;
-    top: 100px;
-    margin-top: -60px;
     font-family: 'roboto', 'sans serif', 'times new roman';
     font-weight: bolder;
-    letter-spacing: -5px;
+    letter-spacing: 1px;
+}
+
+#article_1_main h2 {
+    top: 100px;
+    margin-top: -60px;
     font-size: 40px;
+
 }
 
 #article_2_athletes h2 {
-    text-align: center;
-    position: relative;
     top: 250px;
-    margin-top: -70px;
-    color: #fff;
-    font-family: 'roboto', 'sans serif', 'times new roman';
-    font-weight: bolder;
-    letter-spacing: 10px;
+    margin-top: -60px;
+    color: green;
 }
 
 #article_3_performance h2 {
-    text-align: center;
-    position: relative;
     top: 250px;
-    margin-top: -70px;
-    color:orange;
-    font-family: 'roboto', 'sans serif', 'times new roman';
-    font-weight: bolder;
-    letter-spacing: 10px;
+    margin-top: -60px;
+    color:purple;
 }
 
 #article_4_lifestyle h2 {
-    text-align: center;
-    position: relative;
     top: 580px;
     margin-top: -50px;
+    color: red;
 }
 
 #article_5_taste h2 {
-    text-align: center;
-    position: relative;
     top: 250px;
     margin-top: -50px;
+    color: peru;
 }
 
 #article_6_eco_friendly h2 {
-    text-align: center;
-    position: relative;
     top: 270px;
     margin-top: -70px;
-    color: #fff;
+    color: pink;
 }
 
 #article_7_trust h2 {
-    text-align: center;
-    position: relative;
     top: 570px;
     margin-top: -50px;
+    color:yellow;
 }
 
 #article_8_future h2 {
-    text-align: center;
-    position: relative;
     top: 250px;
     margin-top: -50px;
-    color: #fff;
+    color:green;
 }
 
 #article_9_summary h2 {
-    text-align: center;
-    position: relative;
     top: 570px;
     margin-top: -50px;
-    color: #fff;
+    color:purple;
 }
 
 /*test section
 
 @font-face {
-    font-family: 'cabinbold';
+    font-family: 'Ubuntu';
     src: url('../fonts/cabin-bold-webfont.eot');
     src: url('../fonts/cabin-bold-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/cabin-bold-webfont.woff') format('woff'),
