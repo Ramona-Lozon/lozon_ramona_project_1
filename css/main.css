@@ -5,11 +5,15 @@
     display: none;
 }
 
+body {
+    background-color: #efefef;
+}
+
 #container {
     margin: 20px auto;
     width: 428px;
-    /* border: solid 1px #333;
-    background: #efefef; */
+    /* border: solid 1px #333;*/
+    background: #efefef;
     border-radius: 10px;
 }
 
@@ -19,6 +23,13 @@
         grid-column-gap: 16px;
         padding-left: 20px;
         padding-right: 20px;
+}
+
+/* font face code */
+
+@font-face {
+    font-family: 'Mezcal';
+    src: url('../assets/mezcal.otf');
 }
 
 article {
@@ -44,9 +55,9 @@ h2 {
     background-color: rgba(255, 255, 255, 0.7);;
     text-align: center;
     position: relative;
-    font-family: 'roboto', 'sans serif', 'times new roman';
+    font-family: 'Mezcal', 'roboto', 'sans serif';
     font-weight: bolder;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 #article_1_main h2 {
@@ -104,17 +115,7 @@ h2 {
     color:purple;
 }
 
-/*test section
+/*test section*/
 
-@font-face {
-    font-family: 'Ubuntu';
-    src: url('../fonts/cabin-bold-webfont.eot');
-    src: url('../fonts/cabin-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/cabin-bold-webfont.woff') format('woff'),
-         url('../fonts/cabin-bold-webfont.ttf') format('truetype'),
-         url('../fonts/cabin-bold-webfont.svg#cabinbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 
-*/
+
