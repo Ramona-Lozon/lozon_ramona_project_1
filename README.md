@@ -1,6 +1,20 @@
 # lozon_ramona_project_1-main
 
-HW #1 – FOLDER STRUCTURE & TYPOGRAPHY
+Design choices
+i chose to get rid of the border surrounding the content and make the background of the page the same color as the content background in order to make it more aesthetically pleasing even if you screen size is a bit off.
+
+Font choices
+i chose to use 2 fonts, one for the main headers and brand logo, and one for the body text. if for some reason the font within the file wont load it will pull a secondary for the headers from google.
+
+Arrangement of content & design choices
+i went with having the headers centered and the body text left-aligned, as centrally aligned paragraph text doesnt look as good. 
+i went with images that were large as possible without going outside the bounds of the provided container, as the images givn to use were of large size. 
+i did not shrink any images down in order to save bandwith as i wanted to use the images provided. 
+if this site was going to actually be used i would modify the images to scale with the browser size, but that semmed like it was not an expectation of this assignment as we havent really gone over it in class and only have briefly touched upon it instead.
+i chose to have images with superimposed text and added low opacity banners to them to make them easy to read.
+on the rubric it stated that we needed to link fronts in the index *or* download a file and link it in css, i chose to do both to demonstrate i have an understanding of the concept.
+
+HW #1 – FOLDER STRUCTURE & TYPOGRAPHY RUBRIC
 
 Each Student must demonstrate the ability to set up a folder properly 
 and include the necessary Javascript file.
